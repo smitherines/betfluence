@@ -6,7 +6,12 @@ body {
     background-color: white;
     color: black;
 }
-
+/* Constrain body width on desktop */
+main {
+    max-width: 800px; /* Set your preferred max-width */
+    margin: 0 auto;   /* Center the content */
+    padding: 20px;
+}
 /* Header styles */
 header {
     background-color: #1c1c53;
